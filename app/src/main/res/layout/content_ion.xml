@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="100"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".IonActivity"
+    tools:showIn="@layout/activity_ion">
+
+    <Button
+        android:id="@+id/btn_cosume"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_weight="10"
+        android:text="@string/consume" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="5"
+        android:text="@string/json_output"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_json_output"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="40" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="5"
+        android:text="@string/clean_output"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_clean_output"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="40" />
+
+</LinearLayout>

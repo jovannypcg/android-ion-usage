@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IonUsage</string>
+    <string name="action_settings">Settings</string>
+    <string name="consume">Consume</string>
+    <string name="json_output">JSON Output</string>
+    <string name="clean_output">Clean Output</string>
+    <string name="loading">Cargando</string>
+</resources>
